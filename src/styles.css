@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --main-color: rgb(26, 188, 156);
+  --main-color-rgb: 26, 188, 156;
+  --navbar-bg-color: rgb(44, 62, 80);
+  --navbar-color: white;
+  --navbar-brand-color: white;
+  --navbar-hover-color: white;
+  --navbar-active-color: white;
+  --navbar-brand-hover-color: white;
+  --navbar-brand-font-size: 1.904rem;
+  --navbar-navlink-btn-active-color: white;
+  --contact-form-btn-color: white;
+  --contact-form-btn-hover-bg-color: rgb(26, 188, 130);
+  --contact-form-btn-active-bg-color: rgb(26, 188, 130);
+  --get-in-touch-bg-color: rgb(44, 62, 80);
+  --footer-bg-color: rgb(26, 37, 47);
+}

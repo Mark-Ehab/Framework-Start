@@ -1,0 +1,32 @@
+#portfolio {
+  min-height: 28.8125rem;
+}
+#portfolio .container .wrapper > h1 {
+  color: RGB(44, 62, 80);
+}
+#portfolio .container .wrapper > h1 + div::before {
+  content: "";
+  width: 5rem;
+  height: 0.25rem;
+  background-color: RGB(44, 62, 80);
+  margin-right: 1rem;
+  display: block;
+}
+#portfolio .container .wrapper > h1 + div::after {
+  content: "";
+  width: 5rem;
+  height: 0.25rem;
+  background-color: RGB(44, 62, 80);
+  margin-left: 1rem;
+  display: block;
+}
+#portfolio .container .wrapper .overlay-layer {
+  opacity: 0;
+  transition: 0.5s opacity ease-out;
+}
+#portfolio .container .wrapper figure:hover .overlay-layer {
+  opacity: 1;
+}
+.bg-overlay {
+  background-color: rgba(var(--main-color-rgb), var(--bs-bg-opacity));
+}

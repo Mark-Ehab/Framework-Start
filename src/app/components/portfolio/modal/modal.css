@@ -1,0 +1,12 @@
+.modal-custom {
+  --bs-modal-bg: transparent;
+  --bs-modal-border-color: transparent;
+}
+
+.modal-dialog {
+  max-width: auto;
+  max-width: 37.5rem;
+}
+.modal-body {
+  max-width: 37.5rem;
+}
