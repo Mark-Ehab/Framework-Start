@@ -1,0 +1,20 @@
+#about {
+  background-color: var(--main-color);
+  min-height: 28.8125rem;
+}
+#about .container .wrapper h1 + div::before {
+  content: "";
+  width: 5rem;
+  height: 0.25rem;
+  background-color: white;
+  margin-right: 1rem;
+  display: block;
+}
+#about .container .wrapper h1 + div::after {
+  content: "";
+  width: 5rem;
+  height: 0.25rem;
+  background-color: white;
+  margin-left: 1rem;
+  display: block;
+}

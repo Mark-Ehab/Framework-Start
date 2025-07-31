@@ -1,0 +1,87 @@
+<section
+  id="contact"
+  class="d-flex justify-content-center align-items-center mb-4"
+>
+  <div class="container">
+    <div
+      class="wrapper d-flex flex-column align-items-center justify-content-center"
+    >
+      <h1 class="text-uppercase fs-1 fw-bolder text-center mb-3 mt-4">
+        contact section
+      </h1>
+      <div class="d-flex align-items-center justify-content-center mb-3">
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <form
+        action=""
+        class="mt-5 mx-auto p-3 d-flex flex-column row-gap-4 justify-content-center align-items-center w-75"
+      >
+        <div class="w-100 position-relative">
+          <label
+            for="userName"
+            class="d-block position-relative show-label"
+            [class.show-label]="username"
+            >Username:</label
+          >
+          <input
+            id="userName"
+            name="userName"
+            type="text"
+            placeholder="Username"
+            class="w-100 border-0 border-bottom py-3 rounded-3 position-relative"
+            [(ngModel)]="username"
+          />
+        </div>
+        <div class="w-100 position-relative">
+          <label
+            for="userAge"
+            class="d-block position-relative show-label"
+            [class.show-label]="age"
+            >Age:</label
+          >
+          <input
+            id="userAge"
+            name="userAge"
+            type="number"
+            placeholder="Age"
+            class="w-100 border-0 border-bottom py-3 rounded-3 position-relative"
+            [(ngModel)]="age"
+          />
+        </div>
+        <div class="w-100 position-relative">
+          <label
+            for="userEmail"
+            class="d-block position-relative show-label"
+            [class.show-label]="email"
+            >Email:</label
+          >
+          <input
+            id="userEmail"
+            name="Email"
+            type="email"
+            placeholder="Email"
+            class="w-100 border-0 border-bottom py-3 rounded-3 position-relative"
+            [(ngModel)]="email"
+          />
+        </div>
+        <div class="w-100 position-relative">
+          <label
+            for="userPassword"
+            class="d-block position-relative show-label"
+            [class.show-label]="password"
+            >Password:</label
+          >
+          <input
+            id="userPassword"
+            name="userPassword"
+            type="password"
+            placeholder="Password"
+            class="w-100 border-0 border-bottom py-3 rounded-3 position-relative"
+            [(ngModel)]="password"
+          />
+        </div>
+        <button class="btn btn-custom align-self-start">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>

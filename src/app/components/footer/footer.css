@@ -1,0 +1,7 @@
+#footer {
+  padding: 0.625rem;
+  background-color: var(--footer-bg-color);
+}
+#footer .container > p {
+  padding-top: 0.625rem;
+}

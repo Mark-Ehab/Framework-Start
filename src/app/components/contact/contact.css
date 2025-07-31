@@ -1,0 +1,52 @@
+#contact {
+  min-height: 28.8125rem;
+}
+#contact .container .wrapper > h1 {
+  color: RGB(44, 62, 80);
+}
+#contact .container .wrapper > h1 + div::before {
+  content: "";
+  width: 5rem;
+  height: 0.25rem;
+  background-color: RGB(44, 62, 80);
+  margin-right: 1rem;
+  display: block;
+}
+#contact .container .wrapper > h1 + div::after {
+  content: "";
+  width: 5rem;
+  height: 0.25rem;
+  background-color: RGB(44, 62, 80);
+  margin-left: 1rem;
+  display: block;
+}
+#contact .container .wrapper form div label {
+  padding-left: 0.75rem;
+  color: var(--main-color);
+}
+#contact .container .wrapper form div input {
+  padding-inline: 0.75rem;
+}
+#contact .container .wrapper form div input:focus-visible {
+  outline: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+#contact .btn-custom {
+  --bs-btn-bg: var(--main-color);
+  --bs-btn-color: var(--contact-form-btn-color);
+  --bs-btn-hover-color: var(--contact-form-btn-color);
+  --bs-btn-hover-bg: var(--contact-form-btn-hover-bg-color);
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-active-color: var(--contact-form-btn-color);
+  --bs-btn-active-bg: var(--contact-form-btn-active-bg-color);
+  --bs-btn-active-border-color: transparent;
+}
+#contact form label {
+  top: 2.5rem;
+  transition: 0.5s top ease-in-out;
+}
+#contact form label.show-label {
+  top: 0;
+}

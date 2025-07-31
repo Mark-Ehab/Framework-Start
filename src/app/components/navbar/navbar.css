@@ -1,0 +1,22 @@
+#navbar.navbar-custom {
+  --bs-navbar-padding-y: 1.5rem;
+  --bs-navbar-color: var(--navbar-color);
+  --bs-navbar-brand-color: var(--navbar-brand-color);
+  --bs-navbar-hover-color: var(--navbar-hover-color);
+  --bs-navbar-active-color: var(--navbar-active-color);
+  --bs-navbar-brand-hover-color: var(--navbar-brand-hover-color);
+  --bs-navbar-brand-font-size: var(--navbar-brand-font-size);
+  background-color: var(--navbar-bg-color);
+  transition: 0.3s padding ease;
+}
+#navbar .btn-custom {
+  --bs-btn-active-color: var(--navbar-navlink-btn-active-color);
+}
+#navbar .nav-link {
+  text-align: left;
+  width: fit-content;
+  padding-inline: 0.5rem;
+}
+#navbar .active-link {
+  background-color: var(--main-color);
+}

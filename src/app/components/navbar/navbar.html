@@ -1,0 +1,53 @@
+<nav
+  id="navbar"
+  class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top"
+  [class.py-2]="isScrolled"
+>
+  <div class="container">
+    <a class="navbar-brand text-uppercase fw-bold" routerLink="/home"
+      >start framework</a
+    >
+    <button
+      class="navbar-toggler d-lg-none"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav ms-auto mt-lg-0">
+        <li class="nav-item me-3">
+          <a
+            class="nav-link text-uppercase fw-bold btn btn-custom"
+            routerLinkActive="active-link"
+            routerLink="/about"
+            aria-current="page"
+            >About</a
+          >
+        </li>
+        <li class="nav-item me-3">
+          <a
+            class="nav-link text-uppercase fw-bold btn btn-custom"
+            routerLinkActive="active-link"
+            routerLink="/portfolio"
+            aria-current="page"
+            >portfolio</a
+          >
+        </li>
+        <li class="nav-item me-3">
+          <a
+            class="nav-link text-uppercase fw-bold btn btn-custom"
+            routerLinkActive="active-link"
+            routerLink="/contact"
+            aria-current="page"
+            >contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
